@@ -26,3 +26,5 @@ Make sure you have Node.js in the version 16.20.2 and npm installed on your mach
 `npm run start:dev`
 
 The documentation route can be accessed through the endpoint /api-docs.
+
+To test the API you need to create a user, get the access_token, and set it up in swagger
