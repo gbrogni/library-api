@@ -24,3 +24,5 @@ Make sure you have Node.js in the version 16.20.2 and npm installed on your mach
 4. After that, simply start the application (development):
 
 `npm run start:dev`
+
+The documentation route can be accessed through the endpoint /api-docs.
