@@ -34,7 +34,6 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
       const user: UserPayload = request.user;
 
       const hasRequiredRole = requiredRoles.some(role => user.role?.includes(role));
-      console.log('hasRequiredRole', hasRequiredRole);
       return hasRequiredRole;
     });
   }

@@ -38,9 +38,6 @@ export class CreateBookUseCase {
     const author = await this.authorsRepository.findById(authorId);
     const user = await this.usersRepository.findById(userId);
 
-    console.log('author', author);
-    console.log('user', user);
-
     if (!author) {
       return left(new ResourceNotFoundError());
     }
